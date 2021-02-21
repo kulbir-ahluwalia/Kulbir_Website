@@ -39,7 +39,11 @@ Hugo Static Site Generator v0.80.0/extended linux/amd64 BuildDate: unknown
 ```
 This confirms that Hugo has been installed correctly.
 
+### STEP 3
 
+Go to https://academic-demo.netlify.app/ 
+
+Click "Get Started", choose a template that you like. hover on it, click "Create site" and then follow steps.
 
 
 
