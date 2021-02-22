@@ -46,7 +46,7 @@ Go to https://academic-demo.netlify.app/
 Click "Get Started", choose a template that you like. hover on it, click "Create site" and then follow steps.
 
 
-
+Colour theme choices: https://wowchemy.com/docs/getting-started/customization/ 
 
 
 
