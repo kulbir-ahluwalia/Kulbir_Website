@@ -48,7 +48,11 @@ Click "Get Started", choose a template that you like. hover on it, click "Create
 
 Colour theme choices: https://wowchemy.com/docs/getting-started/customization/ 
 
-
+## Install go for your OS
+For linux, refer:
+```
+https://go.dev/doc/install
+```
 
 
 
