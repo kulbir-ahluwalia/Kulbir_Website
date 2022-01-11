@@ -52,6 +52,11 @@ Colour theme choices: https://wowchemy.com/docs/getting-started/customization/
 For linux, refer:
 ```
 https://go.dev/doc/install
+
+#to add the path to your .zshrc:
+subl .zshrc
+#add the line "export PATH=$PATH:/usr/local/go/bin" in your .zshrc
+source ~/.zshrc
 ```
 
 
