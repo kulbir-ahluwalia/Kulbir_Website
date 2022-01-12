@@ -53,9 +53,22 @@ For linux, refer:
 ```
 https://go.dev/doc/install
 
+#or
+
+brew install go
+
+
 #to add the path to your .zshrc:
 subl .zshrc
-#add the line "export PATH=$PATH:/usr/local/go/bin" in your .zshrc
+
+
+#add the following lines in your .zshrc:
+
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go;
+export PATH=$PATH:$GOPATH/bin;
+
+#followed by sourcing the ~/.zshrc file in your terminal
 source ~/.zshrc
 ```
 
