@@ -2,41 +2,34 @@
 
 We will be using Hugo to generate the static website. The Theme that we will be using is Academic kickstarter.
 
-## Installing Hugo
+## Installing Hugo and Go
+For help on using tar to unzip .tar.gz files: https://websiteforstudents.com/how-to-use-the-tar-command-to-create-and-extract-tar-gz-files-on-ubuntu-16-04-18-04/
 
-### STEP1: Install brew:
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-```
+I do not recommend using brew or snap to install either go or hugo-extended because in that case the packages cannot find each other. There are also additional sourcing problems.
 
-Add the following line to your .zshrc:
-```
-eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
-#you can also use the following command to add the line above to your .zshrc or .bashrc
-echo '\neval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> /home/kulbir/.zshrc
-
-# this command will make sure that Homebrew is added to your PATH in ~/.zshrc 
-```
-Install Homebrew dependencies:
-```
-sudo apt-get install build-essential
-```
-Install GCC:
-```
-brew install gcc
-```
-
-### STEP 2: Install Hugo using Brew
+### STEP 1: Install Hugo using its binary file
 Refer: https://gohugo.io/getting-started/installing/#install-hugo-with-brew 
 ```
-brew install hugo
-
-or 
 cd /usr/local/bin
 sudo tar -xvzf ~/Downloads/hugo_extended_0.92.0_Linux-64bit.tar.gz
 #to verify
 ./hugo version
+```
+After hugo is installed, type ```hugo version``` to check the hugo version.
+You should get the following in terminal:
+```
+hugo v0.92.0-B3549403+extended linux/amd64 BuildDate=2022-01-12T08:23:18Z VendorInfo=gohugoio
+
+```
+This confirms that Hugo has been installed correctly.
+
+
+## Install go for your OS
+For linux, refer:
+```
+https://golangdocs.com/install-go-linux
+
 
 #install go
 cd /usr/local
@@ -44,46 +37,12 @@ sudo tar -xvzf ~/Downloads/go1.17.6.linux-amd64.tar.gz
 
 #to verify
 go version
+
+#to see installation directory of go
+which go
+
 ```
-After hugo is installed, type ```hugo version``` to check the hugo version.
-You should get the following in terminal:
-```
-Hugo Static Site Generator v0.80.0/extended linux/amd64 BuildDate: unknown
-```
-This confirms that Hugo has been installed correctly.
 
-### STEP 3
-
-Go to https://academic-demo.netlify.app/ 
-
-Click "Get Started", choose a template that you like. hover on it, click "Create site" and then follow steps.
-
-
-Colour theme choices: https://wowchemy.com/docs/getting-started/customization/ 
-
-## Install go for your OS
-For linux, refer:
-```
-https://go.dev/doc/install
-
-#or
-
-brew install go
-
-
-#to add the path to your .zshrc:
-subl .zshrc
-
-
-#add the following lines in your .zshrc:
-
-export PATH=$PATH:/usr/local/go/bin
-export GOPATH=$HOME/go;
-export PATH=$PATH:$GOPATH/bin;
-
-#followed by sourcing the ~/.zshrc file in your terminal
-source ~/.zshrc
-```
 
 
 
