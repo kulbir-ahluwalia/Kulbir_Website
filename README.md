@@ -25,8 +25,8 @@ hugo v0.92.0-B3549403+extended linux/amd64 BuildDate=2022-01-12T08:23:18Z Vendor
 This confirms that Hugo has been installed correctly.
 
 
-## Install go for your OS
-For linux, refer:
+### STEP 2: Install go using its binary file
+For ubuntu, refer:
 ```
 https://golangdocs.com/install-go-linux
 
@@ -42,9 +42,16 @@ go version
 which go
 
 ```
+### STEP 3: Choose your theme from Wowchemy + Setup netlify
 
+Choose theme here: https://wowchemy.com/hugo-themes/ 
+Once you have connected your GitHub account to the Netlify theme, download the corresponding GitHub repo. Then:
 
-
+```
+To initialize theme of your website:
+git submodule update --init --recursive
+```
+Documentation for wowchemy: https://wowchemy.com/docs/ 
 
 
 
