@@ -31,6 +31,12 @@ brew install gcc
 Refer: https://gohugo.io/getting-started/installing/#install-hugo-with-brew 
 ```
 brew install hugo
+
+or 
+cd /usr/local/bin
+sudo tar -xvzf ~/Downloads/hugo_extended_0.92.0_Linux-64bit.tar.gz
+#to verify
+./hugo version
 ```
 After hugo is installed, type ```hugo version``` to check the hugo version.
 You should get the following in terminal:
