@@ -37,6 +37,13 @@ cd /usr/local/bin
 sudo tar -xvzf ~/Downloads/hugo_extended_0.92.0_Linux-64bit.tar.gz
 #to verify
 ./hugo version
+
+#install go
+cd /usr/local
+sudo tar -xvzf ~/Downloads/go1.17.6.linux-amd64.tar.gz 
+
+#to verify
+go version
 ```
 After hugo is installed, type ```hugo version``` to check the hugo version.
 You should get the following in terminal:
