@@ -72,10 +72,13 @@ When you have accumulated enough changes, you can push the changes to your githu
 3. copyright: '© 2022 Kulbir Singh Ahluwalia' # Footer text, e.g. '© {year} Me'
 
 
-### STEP 6:
+### STEP 6: Using GitHub pages
 Make your (github username).github.io repository to host your website.
+Refer: https://pages.github.com/
 
-
-
+```
+git submodule add -f -b master https://github.com/kulbir-ahluwalia/kulbir-ahluwalia.github.io.git public
+```
+The public folder has your static website.
 
 
