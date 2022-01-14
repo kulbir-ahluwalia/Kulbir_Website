@@ -54,6 +54,18 @@ git submodule update --init --recursive
 Documentation for wowchemy: https://wowchemy.com/docs/ 
 
 
+### STEP 4: Check website locally
+Serve the website locally using:
+```
+cd ~/your github repo
+hugo server --disableFastRender
+```
+Go to the link provided in terminal. Crtl+click on it.
+This is useful to quickly check if the changes you make result in an error or work as expected.
+when you make any changes, the changes are also accomodated in the website automatically. You do not need to restart your local web server.
+
+When you have accumulated enough changes, you can push the changes to your github repo and deploy the website using netlify. 
+
 
 
 
