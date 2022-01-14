@@ -66,7 +66,14 @@ when you make any changes, the changes are also accomodated in the website autom
 
 When you have accumulated enough changes, you can push the changes to your github repo and deploy the website using netlify. 
 
+### STEP 5: Modify contents of config folder
+1. title: Kulbir Singh Ahluwalia # Website name
+2. baseurl: 'https://kulbir-ahluwalia.github.io/kulbir-website-academic/' # Website URL
+3. copyright: '© 2022 Kulbir Singh Ahluwalia' # Footer text, e.g. '© {year} Me'
 
+
+### STEP 6:
+Make your (github username).github.io repository to host your website.
 
 
 
