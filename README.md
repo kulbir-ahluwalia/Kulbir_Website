@@ -68,7 +68,7 @@ When you have accumulated enough changes, you can push the changes to your githu
 
 ### STEP 5: Modify contents of config folder
 1. title: Kulbir Singh Ahluwalia # Website name
-2. baseurl: 'https://kulbir-ahluwalia.github.io/kulbir-website-academic/' # Website URL
+2. baseurl: 'https://kulbir-ahluwalia.github.io/' # Website URL
 3. copyright: '© 2022 Kulbir Singh Ahluwalia' # Footer text, e.g. '© {year} Me'
 
 
@@ -77,8 +77,16 @@ Make your (github username).github.io repository to host your website.
 Refer: https://pages.github.com/
 
 ```
+rm -rf public #remove public folder if it exists 
 git submodule add -f -b master https://github.com/kulbir-ahluwalia/kulbir-ahluwalia.github.io.git public
 ```
 The public folder has your static website.
 
-
+### STEP 7: Generate your website
+In this step, we generate the website and push all chnages to GitHub. 
+```
+hugo #to generate your static website in the public folder
+git add -A
+git commit -m "added public folder and the static website in it"
+git push
+```
