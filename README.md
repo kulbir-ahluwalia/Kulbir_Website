@@ -90,3 +90,16 @@ git add -A
 git commit -m "added public folder and the static website in it"
 git push
 ```
+Go to your github-username.github.io to see your newly hosted website. 
+
+# Editing the website
+
+### STEP 1: Using hugo new command
+```
+hugo new content/post/welcome.md 
+```
+Edit welcome.md to add new content. 
+draft: false means that the new content is ready to be published on the website.
+draft:true means it will not be published. 
+
+
