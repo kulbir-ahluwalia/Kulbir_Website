@@ -107,4 +107,31 @@ hugo server -D   #to see website with drafts included
 ```
 You can now add your content in markdown in the .md file. It also supports LaTeX. Images, PDFs, GIFs or other files hsould be in the static folder.
 
+### STEP 2: Creating a new post
+```
+#To see all possible options:
+hugo new --help 
+
+#To make a new post in /posts:
+hugo new content/post/welcome.md 
+```
+Then you can edit the contents of this welcome.md to suite your needs.
+1. You can add LaTeX code: 
+```The mass-energy equivalence is described by the famous equation
+\begin{equation}
+E=mc^2
+\end{equation}
+```
+2. You can create a foler called "static_images" in the "static" folder and then add pictures from that folder using any one of:
+ ```
+![test_picture](/static_images/Dr_Tony_Stark.jpg)
+
+#the following line adds a caption as well:
+{{<figure library="true" src="/static_images/Dr_Tony_Stark.jpg" title="Test_picture" lightbox="true">}}
+```
+
+### STEP 3: Creating a new publication
+```
+pip3 install -U academic 
+```
 
