@@ -133,5 +133,10 @@ E=mc^2
 ### STEP 3: Creating a new publication
 ```
 pip3 install -U academic 
+code content/publication/refs.bib
+
+#the following commands makes a new folder for each one of your bibtex entries:
+academic import --bibtex content/publication/refs.bib
 ```
+
 
