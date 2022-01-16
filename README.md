@@ -1,6 +1,7 @@
 # Kulbir_Website
 
 We will be using Hugo to generate the static website. The Theme that we will be using is Academic kickstarter.
+Reference video: https://www.youtube.com/watch?v=X4KzvWMKYaY by Mathieu Besançon.
 
 ## Installing Hugo and Go
 For help on using tar to unzip .tar.gz files: https://websiteforstudents.com/how-to-use-the-tar-command-to-create-and-extract-tar-gz-files-on-ubuntu-16-04-18-04/
@@ -101,5 +102,9 @@ hugo new content/post/welcome.md
 Edit welcome.md to add new content. 
 draft: false means that the new content is ready to be published on the website.
 draft:true means it will not be published. 
+```
+hugo server -D   #to see website with drafts included
+```
+You can now add your content in markdown in the .md file. It also supports LaTeX. Images, PDFs, GIFs or other files hsould be in the static folder.
 
 
