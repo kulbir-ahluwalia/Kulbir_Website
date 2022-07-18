@@ -6,10 +6,10 @@ Reference video: https://www.youtube.com/watch?v=X4KzvWMKYaY by Mathieu Besanço
 ## Installing Hugo and Go
 For help on using tar to unzip .tar.gz files: https://websiteforstudents.com/how-to-use-the-tar-command-to-create-and-extract-tar-gz-files-on-ubuntu-16-04-18-04/
 
-I do not recommend using brew or snap to install either go or hugo-extended because in that case the packages cannot find each other. There are also additional sourcing problems.
+I do not recommend using brew or snap to install either go or hugo-extended because in that case the packages cannot find each other. There are also additional sourcing problems. JUST USE THE BINARY FILE.
 
 
-### STEP 1: Install Hugo using its binary file
+### STEP 1: Install "Hugo Extended" using its binary file
 Refer: https://gohugo.io/getting-started/installing/#install-hugo-from-tarball
 ```
 cd /usr/local/bin
