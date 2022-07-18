@@ -27,11 +27,8 @@ This confirms that Hugo has been installed correctly.
 
 
 ### STEP 2: Install go using its binary file
-For ubuntu, refer:
+For ubuntu, refer https://golangdocs.com/install-go-linux:
 ```
-https://golangdocs.com/install-go-linux
-
-
 #install go
 cd /usr/local
 sudo tar -C /usr/local/ -xzf ~/Downloads/go1.18.4.linux-amd64.tar.gz  
