@@ -10,7 +10,7 @@ I do not recommend using brew or snap to install either go or hugo-extended beca
 
 
 ### STEP 1: Install Hugo using its binary file
-Refer: https://gohugo.io/getting-started/installing/#install-hugo-with-brew 
+Refer: https://gohugo.io/getting-started/installing/#install-hugo-from-tarball
 ```
 cd /usr/local/bin
 sudo tar -xvzf ~/Downloads/hugo_extended_0.92.0_Linux-64bit.tar.gz
