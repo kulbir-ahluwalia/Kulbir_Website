@@ -37,7 +37,7 @@ sudo tar -C /usr/local/ -xzf ~/Downloads/go1.18.4.linux-amd64.tar.gz
 sudo nano $HOME/.profile  
 # add the following line to the end of .profile and then save
 export PATH=$PATH:/usr/local/go/bin
-source .profile
+source $HOME/.profile 
 
 
 #to verify
