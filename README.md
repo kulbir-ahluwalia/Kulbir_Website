@@ -144,3 +144,11 @@ academic import --bibtex content/publication/refs.bib
 ```
 
 
+# Add your website to google search console
+
+This is required to make your website searchable on google. 
+Please follow instructions here: https://stackoverflow.com/a/49073325/11007611
+
+Link to google console home page: https://www.google.com/webmasters/tools/home 
+
+Simply verify your URL such as ```https://kulbir-ahluwalia.github.io/``` by any of the options provided. The easiest one is to just add a HTML file to your website and then verify it. 
